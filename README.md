@@ -1,1 +1,2 @@
-# Exercises-C-in-21-days
+# Exercises in the C programming language 2nd edition
+Review how to program in C...
