@@ -2,8 +2,8 @@
 
 /* symbolic constants*/
 #define LOWER 0         // lower limit of temp
-#define UPPER 300;    // upper limit of temp
-#define STEP 20;      // step size
+#define UPPER 300    // upper limit of temp
+#define STEP 20      // step size
 
 /* Fahrenheit-Celsius table */
 int main() {
