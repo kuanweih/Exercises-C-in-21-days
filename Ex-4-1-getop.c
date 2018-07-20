@@ -1,7 +1,7 @@
-#include <ctype.h>
+#include  <stdio.h>
+#include  <ctype.h>
+#include  "Ex-4-1-calc.h "
 
-int getch(void);
-void ungetch(int);
 
 // getop: get next operator or numeric operand
 int getop(char s[])
@@ -20,5 +20,5 @@ int getop(char s[])
     s[i] = '\0';
     if (c != EOF)
         ungetch(c);
-    return NUMBER;  
+    return NUMBER;
 }
