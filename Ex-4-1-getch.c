@@ -1,3 +1,5 @@
+#include  <stdio.h>
+
 #define  BUFSUZE  100
 
 char buf[BUFSUZE];    // buffer for ungetch
