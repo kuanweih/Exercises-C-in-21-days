@@ -1,10 +1,10 @@
 #include  <stdio.h>
-#include  "Ex-4-1-calc.h "
+#include  "Ex-4-1-calc.h"
 
 #define  MAXVAL  100    // maximum depth of val stack
 
 int sp = 0;           // next free stack position
-double val[MAXVAL]    // value stack
+double val[MAXVAL];    // value stack
 
 
 // push: push f onto value stack
