@@ -25,11 +25,13 @@ int main() {
               break;
           } // switch
     } // while
+
     printf("digits =\n");
     for (i = 0; i < 10; i++) {
         printf(" %d", ndigit[i]);
     }
-    printf(", white space = %d, other = %d\n", nwhite, nother);
     
+    printf(", white space = %d, other = %d\n", nwhite, nother);
+
     return 0;
 } // main
